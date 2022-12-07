@@ -8,7 +8,7 @@ for(let i = 0; i < input.length - 14; i++){
     }
     chars[i%14] = input[i];
     if(noDuplicates(chars)){
-        console.log(i +1);
+        console.log(i + 1);
         break;
     }
 }
